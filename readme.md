@@ -4,7 +4,7 @@ After having created a proper environmen the fine-tunings have been launched wit
 ```console
 python tools/train.py ${CONFIG} > output_logs.txt
 ```
-where CONFIG is the path to the MMAction model configuration file, the CNN model config could be found in this (`CNN_finetunings`).
+where CONFIG is the path to the MMAction model configuration file, the CNN model config could be found in this `CNN_finetunings`.
 The tests have been done with:
 ```console
 python tools/test.py ${CONFIG} ${CHECKPOINT} --dump _outuput.pkl > output_test_logs.txt
@@ -18,7 +18,7 @@ The standard procedure to visualize with MMAction the Grad-CAM heatmap of a vide
 
 ### Extraction heatmap values
 
-Using the customized version of the GradCAM class (`gradcam_utils.py`) and the relative python script for the visualisation (`vis_cam.py`),  it is possible produce a txt file with all the values of the heatmap for a further analysis with:
+Using the customized version of the GradCAM class `gradcam_utils.py` and the relative python script for the visualisation `vis_cam.py`,  it is possible produce a txt file with all the values of the heatmap for a further analysis with:
 ```console
 python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --file-url ${PATH}
 ```
@@ -26,7 +26,7 @@ The file produced contains all the values dividing the different frame with the 
 
 
 # Saliency_comparison
-A notebook that aggregates the code for the saliency comparison can be found in (`saliency_metrics_comparison`)
+A notebook that aggregates the code for the saliency comparison can be found in `saliency_metrics_comparison`
 
 
 
