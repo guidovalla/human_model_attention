@@ -22,7 +22,7 @@ Using the customized version of the GradCAM class `gradcam_utils.py` and the rel
 ```console
 python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --file-url ${PATH}
 ```
-The file produced contains all the values dividing the different frames with the line _ Frame N - Heatmap values: _ differentiating them. I suggest to produce a .sh file to automatize the video Grad-CAMs collection. For the comparison with human gaze data we converted the Grad-CAM heatmaps to saliency maps summing all the frame values for each video and normalized for the number of frames
+The file produced contains all the values dividing the different frames with the line _Frame N - Heatmap values:_ differentiating them. I suggest to produce a .sh file to automatize the video Grad-CAMs collection. For the comparison with human gaze data we converted the Grad-CAM heatmaps to saliency maps summing all the frame values for each video and normalized for the number of frames
 
 
 # Saliency_comparison
