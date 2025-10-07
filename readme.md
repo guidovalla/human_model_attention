@@ -4,7 +4,7 @@ After having created a proper environmen the fine-tunings have been launched wit
 ```console
 python tools/train.py ${CONFIG} > output_logs.txt
 ```
-where CONFIG is the path to the MMAction model configuration file, the CNN model config could be found in this `CNN_finetunings`.
+where CONFIG is the path to the MMAction model configuration file, the CNN model config could be found in this repository in the folder `CNN_finetunings`.
 The tests have been done with:
 ```console
 python tools/test.py ${CONFIG} ${CHECKPOINT} --dump _outuput.pkl > output_test_logs.txt
