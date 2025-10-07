@@ -18,7 +18,7 @@ The standard procedure to visualize with MMAction the Grad-CAM heatmap of a vide
 
 ### Extraction heatmap values
 
-Using the customized version of the GradCAM class `gradcam_utils.py` and the relative python script for the visualisation `vis_cam.py`,  it is possible produce a txt file with all the values of the heatmap for a further analysis with:
+Using the customized version of the GradCAM class `gradcam_utils.py` and the relative python script for the visualisation `vis_cam.py` (both in the folder `CNN_finetunings`),  it is possible produce a txt file with all the values of the heatmap for a further analysis with:
 ```console
 python tools/visualizations/vis_cam.py ${CONFIG} ${CHECKPOINT} ${VIDEO} --file-url ${PATH}
 ```
