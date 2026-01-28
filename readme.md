@@ -1,6 +1,9 @@
 # Structure of this repo
 
 *UPDATE:* the `new_experiment` folder contains the preliminary experiments to introduce the gaze info into the loss of the model to more closely align the model's visual attention patterns with those of human participants.
+
+_______________________________________________________________________________________________________________________________________________
+
 The CNN fine-tunings are based on **[MMAction2](https://github.com/open-mmlab/mmaction2) repository**, using [its documentation](https://mmaction2.readthedocs.io/en/latest/get_started/overview.html).
 After having created a proper environmen the fine-tunings have been launched with:
 ```console
