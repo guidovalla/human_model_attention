@@ -1,11 +1,4 @@
 # ============================================================
-# Cleaned & Commented Training Script
-# I3D (pytorchvideo) + GradCAM + AUC-Judd
-# ============================================================
-# All comments and identifiers are written in English
-# to ensure international readability.
-
-# ============================================================
 # Imports
 # ============================================================
 import os
